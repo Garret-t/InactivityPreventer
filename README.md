@@ -1,8 +1,12 @@
-# InactivityPreventer
+# Inactivity Preventer
 To prevent inactivity within a 30 minute time span, every 28 minutes, this program will press the shift key, this prevents windows from sending you back to the log in screen and having to retype your password. The program will terminate after 14 hours.
 
+*Warning: By downloading these files, you accept that I am no longer held accountable for any level of security that gets compromised, and that you are compromising some level of security by having your system not log out after inactivity. Under the circumstance that something were to happen due to this program preventing log out after inactivty, you are held accountable.*
+
 ## How to Run
-Simply download the files, double-click on the bat(hopefully wscript is added to your path). You can also add a shortcut to the bat and run it on startup if necessary.
+Simply download the files, extract them somewhere, double-click on the bat(hopefully wscript is added to your path). You can also add a shortcut to the bat and run it on startup if necessary.
+
+To stop the program, open task manager(Ctrl Alt Delete), expand it by clicking more details, scroll down until you see Microsoft ® Windows Based Script Host. Then select it, right click on it, and select end task or at the bottom right, click the button that says end task.  
 
 ## Code Explanation if you're worried
 The code is safe and commented with explanations just in case you get questioned by an admin or something on the network.
